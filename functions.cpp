@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch.18 Assignment - Linked List Project
-// July 8th, 2020
-
 // Implementation file for the main programs input and output functions.
 
 #include <iostream>
@@ -12,13 +8,13 @@
 using namespace std;
 
 //************************************************************************************************************************************
-//                                                         USER INPUT FUNCTIONS 													 *
+//                                                         USER INPUT FUNCTIONS 						     *
 //************************************************************************************************************************************
 
 
 //******************************************************************************************
-// menuChoice Function																	   *
-//																						   *
+// menuChoice Function									   *
+//											   *											   
 // This function prints the menu and prompts the user to enter a selection from the menu.  *
 //******************************************************************************************
 
@@ -45,8 +41,8 @@ int menuChoice()
 }
 
 //******************************************************************************************************
-// getPrimColor Function																			   *
-//																									   *
+// getPrimColor Function									       *
+//												       *
 // This function prompts the user to enter a primary color, and returns the color input.               *
 //******************************************************************************************************
 
@@ -74,9 +70,9 @@ string getPrimColor()
 }
 
 //******************************************************************************************************
-// contProgram Function																				   *
-//																									   *
-// This function prompts the user to continue the program or not.									   *
+// contProgram Function										       *
+//												       *
+// This function prompts the user to continue the program or not.				       *
 //******************************************************************************************************
 
 bool contProgram()
@@ -113,10 +109,10 @@ bool contProgram()
 }
 
 //******************************************************************************************************
-// getPosition Function																				   *
-//																									   *
-// This function gets a number from the user that represents where in the list they would like to	   *
-// insert a new node. The function checks if it is a number and returns the number. 				   *
+// getPosition Function										       *
+//												       *
+// This function gets a number from the user that represents where in the list they would like to      *
+// insert a new node. The function checks if it is a number and returns the number.	               *
 //******************************************************************************************************
 
 int getPosition()
@@ -141,10 +137,10 @@ int getPosition()
 
 
 //******************************************************************************************************
-// isInteger Function																				   *
-//																									   *
+// isInteger Function										       *
+//											  	       *
 // This function checks if an input is an integer. While the input is not an integer it prompts for    *
-// a new number entry and returns that number. Otherwise, it returns the origional input.			   *
+// a new number entry and returns that number. Otherwise, it returns the origional input.	       *
 //******************************************************************************************************
 
 int isInteger(int input, string custPrompt)
@@ -169,9 +165,9 @@ int isInteger(int input, string custPrompt)
 }
 
 //******************************************************************************************************
-// isPrimColor Function																				   *
-//																									   *
-// This function checks if a string is a primary color.												   *
+// isPrimColor Function										       *
+//												       *
+// This function checks if a string is a primary color.						       *
 //******************************************************************************************************
 
 bool isPrimColor(string color)
