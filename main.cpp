@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch.18 Assignment - Linked List Project
-// July 8th, 2020
-
 #include <iostream>
 #include <string>
 #include "LinkedList.h"
