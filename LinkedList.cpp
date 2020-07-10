@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch.18 Assignment - Linked List Project
-// July 8th, 2020
-
 // Implementation file for a class template holding a linked list.
 
 #include <iostream>
@@ -12,8 +8,8 @@ using namespace std;
 
 
 //*************************************************************************************************
-// ~LinkedList Destructor																		  *
-//																								  *
+// ~LinkedList Destructor									  *
+//												  *
 // The destructor moves through the list starting at the head and deletes each node of the list.  *
 //*************************************************************************************************
 
@@ -37,10 +33,10 @@ LinkedList::~LinkedList()
 }
 
 //*************************************************************************************************
-// appendNode Function																			  *
-//																								  *
+// appendNode Function										  *
+//												  *
 // This function takes a value as an argurment and adds a new node to the end of the linked list  *
-// with that value stored in it.											   				      *
+// with that value stored in it.								  *
 //*************************************************************************************************
 
 void LinkedList::appendNode(string colorChoice)
@@ -82,10 +78,10 @@ void LinkedList::appendNode(string colorChoice)
 }
 
 //*************************************************************************************************
-// insertNode Function																			  *
-//																								  *
+// insertNode Function										  *
+//												  *
 // This function takes a value as an argument and inserts a new node into a position in the list  *
-// that the user has chosen, given that the head node is position '0'.							  *
+// that the user has chosen, given that the head node is position '0'.				  *
 //*************************************************************************************************
 
 int LinkedList::insertNode(int position, string colorChoice)
@@ -158,8 +154,8 @@ int LinkedList::insertNode(int position, string colorChoice)
 }
 
 //*************************************************************************************************
-// reverseOrder Function																		  *
-//																								  *
+// reverseOrder Function									  *
+//												  *
 // This function reverses a linked lists order by traversing the list and reversing the next	  *
 // pointer in each node to point to the previous node instead, and make the last node the head.   *
 //*************************************************************************************************
@@ -195,8 +191,8 @@ void LinkedList::reverseOrder()
 }
 
 //*************************************************************************************************
-// deleteNode Function																			  *
-//																								  *
+// deleteNode Function										  *
+//												  *
 // This function takes a value as an argument, then searches the list for that value.  When a     *
 // node is found who's member value variable matches the value passed, that node is deleted.	  *
 //*************************************************************************************************
@@ -268,9 +264,9 @@ int LinkedList::deleteNode(int position)
 }
 
 //*************************************************************************************************
-// displayList Function																			  *
-//																								  *
-// This function traverses through the linked list and displays each node in the list.			  *
+// displayList Function										  *
+//												  *
+// This function traverses through the linked list and displays each node in the list.		  *
 //*************************************************************************************************
 
 void LinkedList::displayList() const
@@ -292,10 +288,10 @@ void LinkedList::displayList() const
 }
 
 //*************************************************************************************************
-// searchList Function																			  *
-//																								  *
+// searchList Function										  *
+//												  *
 // This function searches the list for a value equal to the one passed into the function and	  *
-// returns the values position in the list. If it is not in the list it returns -1.				  *
+// returns the values position in the list. If it is not in the list it returns -1.		  *
 //*************************************************************************************************
 
 int LinkedList::searchList(string color)
