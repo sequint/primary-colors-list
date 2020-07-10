@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch.18 Assignment - Linked List Project
-// July 8th, 2020
-
 // Specficication file for a class template holding a linked list.
 
 #ifndef NUMBERLIST_H
